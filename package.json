@@ -1,0 +1,26 @@
+{
+  "name": "employee-tracking-app",
+  "version": "1.0.0",
+  "description": "App that helps track employees, roles, and salaries.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dswinicki8/Employee-Tracking-App.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dswinicki8/Employee-Tracking-App/issues"
+  },
+  "homepage": "https://github.com/dswinicki8/Employee-Tracking-App#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "inquirer": "^7.1.0",
+    "inquirer-confirm": "^2.0.7",
+    "mysql": "^2.18.1"
+  }
+}
